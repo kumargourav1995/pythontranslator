@@ -1,5 +1,5 @@
 # Python
-ALL MY PYTHON CODES GOES HERE
+
 
 
 I used python3 along with some open-source python packages to build a translation program of my own. It is based on Google translate API
