@@ -54,9 +54,9 @@ if choice =='3':
     except:
         pass
 
-a=translator.translate(text, dest='hi')
-print("\nprocessing............\n")
-print("translated text\n\n"+a.text)
+    a=translator.translate(text, dest='hi')
+    print("\nprocessing............\n")
+    print("translated text\n\n"+a.text)
 
 if choice=='4':
     try:
@@ -69,8 +69,8 @@ if choice=='4':
     except:
         pass
 
-a=translator.translate(text, dest='hi')
-print(a.text)
-converted_audio=gtts.gTTS(a.text,lang='hi')
-converted_audio.save('audio.mp3')
-playsound.playsound('audio.mp3')
+    a=translator.translate(text, dest='hi')
+    print(a.text)
+    converted_audio=gtts.gTTS(a.text,lang='hi')
+    converted_audio.save('audio.mp3')
+    playsound.playsound('audio.mp3')
